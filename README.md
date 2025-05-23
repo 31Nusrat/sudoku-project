@@ -41,11 +41,12 @@ sudoku-project/
 
 ## 🚀 Getting Started
 
-### 1. Clone the repository
+
 
 ```bash
-git clone https://github.com/yourusername/sudoku-project.git
-cd sudoku-project
+1. Clone the Repository
+  git clone https://github.com/yourusername/sudoku-project.git
+  cd sudoku-project
 
 2. Install dependencies
 Backend
