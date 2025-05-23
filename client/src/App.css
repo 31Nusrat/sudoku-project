@@ -1,0 +1,142 @@
+.app{
+  text-align: center;
+  font-family: sans-serif;
+  margin-top: 30px;
+
+}
+.sudoku-grid{
+  display: grid;
+  grid-template-columns: repeat(9,40px);
+  grid-template-rows: repeat(9,40px);
+  gap: 2px;
+  margin: 20px auto;
+  width: fit-content;
+}
+
+.cell{
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 20px;
+  border: 1px solid #999;
+  outline: none;
+  /* box-sizing: border-box; */
+
+
+}
+.left-border{
+  border-left: 2px solid black;
+}
+.right-border{
+  border-right: 2px solid black;
+}
+.top-border{
+  border-top: 2px solid black;
+
+}
+.bottom-border{
+  border-bottom: 2px solid black;
+}
+
+
+/* Button style */
+.reset-button{
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #ff6347;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.reset-button:hover{
+  background-color: #e5533d;
+}
+
+.fixed-cell{
+  background-color: #eee;
+  font-weight: bold;
+  color: black;
+}
+
+.check-button{
+  padding:10px 15px;
+  margin-top:10px;
+  margin-left: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+
+}
+
+.check-button:hover{
+  background-color: #45a049;
+}
+
+.solve-button{
+  padding: 10px 150px;
+  margin-top: 10px;
+  margin-left: 10px;
+  background-color: #0077cc;
+  color: white;
+  border:none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.solve-buttonz:hover{
+  background-color: #005fa3;
+}
+
+.clear-button{
+  margin: 10px;
+  padding:10px 20px;
+  background-color: #ffa500;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.hint-button{
+  
+  margin: 10px;
+  padding:10px 20px;
+  background-color: #ffa500;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.conflict-cell{
+  background-color: #fca5a5;
+}
+
+.difficulty-buttons {
+  margin-bottom: 15px;
+}
+
+.difficulty-button {
+  margin: 0 8px;
+  padding: 8px 16px;
+  font-size: 16px;
+  background-color: #ddd;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.difficulty-button:hover {
+  background-color: #ccc;
+}
+
+.difficulty-button.active {
+  background-color: #4caf50;
+  color: white;
+  font-weight: bold;
+}
